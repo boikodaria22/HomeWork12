@@ -72,11 +72,15 @@ function responseServer() {
             li.appendChild(btnEdit)
             btnEdit.textContent = 'Edit'
             btnEdit.onclick = () => {
+              if (inp.disabled == true)
               inp.disabled = false
+              else 
+                 inp.disabled = true;
             }
           }
         }
       })()
+      
     }
   }
 }
