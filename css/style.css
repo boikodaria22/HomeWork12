@@ -72,7 +72,9 @@ textarea{
   max-height:min-content;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 14px;
-  color:rgb(35, 35, 164)
+  color:rgb(35, 35, 164);
+  text-shadow:1px 1px 1px rgba(35, 35, 164,0.64);
+  letter-spacing: 0.8px;
 }
 li{
   font-weight: 700;
