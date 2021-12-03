@@ -55,9 +55,24 @@ button{
   border-radius: 5px;
   font-size: 14px;
 }
+input:focus{
+  outline: 1px solid white;
+}
+
+textarea:focus{
+  outline: none;
+}
+button:focus{
+  outline: none;
+  background-color: rgb(84, 80, 182);
+}
+
 textarea{
   width: 80%;
   max-height:min-content;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  color:rgb(35, 35, 164)
 }
 li{
   font-weight: 700;
